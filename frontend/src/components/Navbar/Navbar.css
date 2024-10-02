@@ -1,0 +1,15 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #CCC;
+    background-color: white;
+}
+
+.navbar h1{
+    font-weight: 500;
+}

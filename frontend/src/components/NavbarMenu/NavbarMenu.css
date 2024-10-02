@@ -1,0 +1,39 @@
+.navbarMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+.navbarLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarLinks svg {
+    width: 2em;
+    height: 2em;
+    opacity: .5;
+    transition: .3s;
+}
+
+.navbarLinks svg:hover {
+    opacity: 1;
+}
+
+.navbarMenu ul li {
+    position: relative;
+}
+
+.cartLength {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}

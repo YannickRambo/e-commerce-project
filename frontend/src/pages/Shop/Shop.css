@@ -1,0 +1,12 @@
+.shop {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    padding: 8em 0;
+}
+
+.shop h2 {
+    text-align: center;
+    margin: 3em 0;
+}

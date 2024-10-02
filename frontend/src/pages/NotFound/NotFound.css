@@ -1,0 +1,16 @@
+.notFound{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em 0;
+    font-size: 1.5em;
+}
+
+.notFound span {
+    font-weight: 500;
+}
+
+.notFoundLink {
+    text-decoration: none;
+}

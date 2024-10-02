@@ -1,0 +1,12 @@
+.bannerImage {
+    position: relative;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.bannerImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

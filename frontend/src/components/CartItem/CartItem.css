@@ -1,0 +1,53 @@
+.cartItem {
+    display: flex;
+    gap: 1em;
+    border-radius: 1em;
+    background-color: #F5F5F5;
+    border: 1px solid #D5D5D5;
+}
+
+.cartItemImage {
+    height: 300px;
+    width: 300px;
+}
+
+.cartItemImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+
+.cartItemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.cartItem button {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border: none;
+    padding: 1em;
+    border-radius: 3em;
+    border: 1px solid;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+.cartItem button:hover {
+    background-color: white;
+    color: black;
+}
+
+.cartItem button svg {
+    height: 1.5em;
+    width: 1.5em;
+}

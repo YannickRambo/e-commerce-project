@@ -1,0 +1,19 @@
+.presentation {
+    position: relative;
+    height: calc(80vh + 1em);
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    grid-area: presentation;
+    overflow: hidden;
+}
+
+.presentationImage {
+    height: 100%;
+}
+
+.presentationImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+

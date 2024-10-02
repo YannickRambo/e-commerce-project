@@ -1,0 +1,20 @@
+.heroBanner {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "presentation presentation bannerImage1 bannerImage1"
+        "presentation presentation bannerImage2 bannerImage2";
+    gap: 1em;
+    padding: 0 5em;
+}
+
+.bannerImage1 {
+    grid-area: bannerImage1;
+    height: calc(80vh / 2);
+}
+
+.bannerImage2 {
+    grid-area: bannerImage2;
+    height: calc(80vh / 2);
+}

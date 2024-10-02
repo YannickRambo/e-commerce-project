@@ -1,0 +1,24 @@
+.overflow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, .750);
+}
+
+.overflow h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.overflow p {
+    font-size: 1.2em;
+}

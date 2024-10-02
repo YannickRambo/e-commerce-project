@@ -1,0 +1,56 @@
+.message {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    transform: translateX(-500px);
+    padding: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: white;
+    background-color: black;
+}
+
+.active {
+    animation: appear normal 2s;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateX(-500px);
+    }
+
+    20% {
+        transform: translateX(0px);
+    }
+
+    40% {
+        transform: translateX(0px);
+    }
+
+    60% {
+        transform: translateX(0px);
+    }
+
+    80% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-500px);
+    }
+}
+
+.check {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
